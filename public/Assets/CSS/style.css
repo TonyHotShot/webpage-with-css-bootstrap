@@ -1,0 +1,373 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Ellipse 10 */
+.ellipse9 {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  left: 620px;
+  top: -899px;
+  border-radius: 50%;
+  background: #fffdf3;
+  z-index: -1000;
+  overflow: hidden;
+}
+.ellipse10 {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  left: -300px;
+  top: -1082px;
+  background: #fff7f7;
+  border-radius: 50%;
+  z-index: -1000;
+  overflow: hidden;
+}
+.ellipse11 {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  left: -821px;
+  top: 1026px;
+  background: #fff7f7;
+  border-radius: 50%;
+  z-index: -1000;
+  overflow: hidden;
+}
+.ellipse11__about {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  left: -811px;
+  top: -22px;
+
+  background: #fff7f7;
+  border-radius: 50%;
+  z-index: -1000;
+  overflow: hidden;
+}
+.ellipse11__contact {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  left: -875px;
+  top: 20px;
+  background: #fff7f7;
+  border-radius: 50%;
+  z-index: -1000;
+  overflow: hidden;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+}
+.card__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: justify;
+  color: #777777;
+}
+.card__title__gen {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+}
+.card__desc__gen {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: justify;
+  color: #777777;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 175% */
+  color: #0a2640;
+}
+
+.services__section__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 76%;
+  color: #ba2422;
+}
+.service__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+}
+.service__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 230%;
+  text-align: justify;
+  color: #777777;
+}
+.testimonial {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.video__container {
+  width: 90%;
+  height: 90%;
+}
+.video__container img {
+  height: 100%;
+  width: 100%;
+  /* margin: auto; */
+}
+
+.blog__title__small {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #f1f1f1;
+}
+
+.blog__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.blog__img__container {
+  width: 300px;
+  height: 354px;
+}
+.blog__img__container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.blog__img__caption {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.read__btn {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+.read__btn:hover {
+  color: rgb(233, 233, 233);
+}
+.footer__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.footer__items {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 175.78%;
+  color: #ffffff;
+}
+
+.follow__icon__btn {
+  height: 85px;
+  width: 85px;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.follow__icon__btn img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.followus__text {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 175.78%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about__us__title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.wordsoffounder {
+  background: #53afa4;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  transform: translateX(-40%);
+}
+.founder__title {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 116%;
+  color: #ffffff;
+}
+.founder__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #ffffff;
+}
+.founder__name {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 28px;
+  color: #051d33;
+  margin-bottom: 1rem;
+}
+.founder__position {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: #051d33;
+}
+
+.about__us__video {
+  height: 516px;
+  width: 825px;
+}
+.about__us__video img {
+  height: 100%;
+  width: 100%;
+}
+.about__para {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 260%;
+  text-align: justify;
+  color: black;
+}
+.founder__img img {
+  border-radius: 50%;
+}
+.founder__info {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.founder__pos {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.founder__edu {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.contact__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0em;
+  margin-bottom: 5rem;
+}
+.contact__desc {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #5c5c5c;
+}
+.form-label {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140.78%;
+  color: #051d33;
+}
+.address {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140.78%;
+  color: #051d33;
+}
+.address__content {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 230.28%;
+  font-feature-settings: "case" on;
+  color: #5c5c5c;
+}
+.btn-primary {
+  margin-top: 1.5rem;
+  width: 33%;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background: #051d33;
+}
+.btn-primary:hover {
+  background: #082d52;
+}
+.blog__img__con {
+  width: 100%;
+  height: 100%;
+}
+.blog__img__con img {
+  width: 100%;
+  height: 100%;
+}
+.blogpage__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.blogpage__blog__title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.blog__author {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: justified;
+  margin-bottom: 3rem;
+}
+
+.blog__content {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
